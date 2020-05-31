@@ -1,28 +1,27 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+   <Conversor moeda-a="BTC" moeda-b="BRL"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import Conversor from "./components/Conversor.vue";
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+   name:"app",
+   components: {
+     Conversor
+   }
+};
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
+<style> 
+ #app{
+   font-family: "Avenir";
+   -webkit-font-smoothing:antialiased;
+   -moz-osx-font-smoothing:grayscale;
+   text-align:center;
+   columns: #22cc33;
+   margin-top:60px;
+ }
 </style>
