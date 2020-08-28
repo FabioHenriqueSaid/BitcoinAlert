@@ -1,1 +1,1 @@
-Escrito 100% em Vue Js
+Escrito 100% em Js
