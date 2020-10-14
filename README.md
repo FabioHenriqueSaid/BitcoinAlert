@@ -1,1 +1,1 @@
-Escrito 100% em Js
+Retorna o valor do BitCoin em tempo real
